@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.decoratorpattern;
+package com.ptit.and.java.designpattern.decoratorpattern;
 
 public class ChineseFood extends FoodDecorator {
     public ChineseFood(Food newFood) {

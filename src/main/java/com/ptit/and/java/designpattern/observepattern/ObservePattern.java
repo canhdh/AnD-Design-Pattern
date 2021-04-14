@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.observepattern;
+package com.ptit.and.java.designpattern.observepattern;
 
 public class ObservePattern {
     public static void main(String[] args) {

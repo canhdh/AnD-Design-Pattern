@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.observepattern;
+package com.ptit.and.java.designpattern.observepattern;
 
 import java.io.BufferedReader;
 import java.io.IOException;

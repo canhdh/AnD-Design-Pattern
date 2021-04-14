@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.decoratorpattern;
+package com.ptit.and.java.designpattern.decoratorpattern;
 
 import java.io.BufferedReader;
 import java.io.IOException;

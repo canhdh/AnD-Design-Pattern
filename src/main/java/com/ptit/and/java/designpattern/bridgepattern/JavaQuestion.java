@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.bridgepattern;
+package com.ptit.and.java.designpattern.bridgepattern;
 
 import java.util.ArrayList;
 import java.util.List;

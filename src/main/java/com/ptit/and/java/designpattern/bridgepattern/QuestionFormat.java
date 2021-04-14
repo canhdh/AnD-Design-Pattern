@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.bridgepattern;
+package com.ptit.and.java.designpattern.bridgepattern;
 
 public class QuestionFormat extends QuestionManager {
     public QuestionFormat(String catalog) {

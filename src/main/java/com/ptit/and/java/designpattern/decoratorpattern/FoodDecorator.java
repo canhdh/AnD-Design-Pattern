@@ -1,4 +1,4 @@
-package com.ptit.and.designpattern.decoratorpattern;
+package com.ptit.and.java.designpattern.decoratorpattern;
 
 public abstract class FoodDecorator implements Food {
     private Food newFood;
