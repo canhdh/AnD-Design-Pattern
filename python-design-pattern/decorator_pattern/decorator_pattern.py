@@ -1,7 +1,29 @@
-import six
-from abc import ABCMeta
+import coffeeshop
 
-@six.add_metaclass(ABCMeta)
-class Abstract_Coffee(object):
-    def get_cost(self):
-        pass
+myCoffee = coffeeshop.Concrete_Coffee()
+print(
+    'Ingredients: ' + myCoffee.get_ingredients() 
+    + '; Cost: ' + str(myCoffee.get_cost()) 
+    + '; Sales tax = ' + str(myCoffee.get_tax())
+)
+
+myCoffee = coffeeshop.Milk(myCoffee)
+print(
+    'Ingredients: ' + myCoffee.get_ingredients() 
+    + '; Cost: ' + str(myCoffee.get_cost()) 
+    + '; Sales tax = ' + str(myCoffee.get_tax())
+)
+
+myCoffee = coffeeshop.Sugar(myCoffee)
+print(
+    'Ingredients: ' + myCoffee.get_ingredients() 
+    + '; Cost: ' + str(myCoffee.get_cost()) 
+    + '; Sales tax = ' + str(myCoffee.get_tax())
+)
+
+myCoffee = coffeeshop.Vanilla(myCoffee)
+print(
+    'Ingredients: ' + myCoffee.get_ingredients() 
+    + '; Cost: ' + str(myCoffee.get_cost()) 
+    + '; Sales tax = ' + str(myCoffee.get_tax())
+)
